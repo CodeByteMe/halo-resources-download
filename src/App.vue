@@ -15,10 +15,7 @@
         </div>
       </div>
     </section>
-    <section
-      class="section"
-      style="min-height: calc(100vh - 3.25rem);"
-    >
+    <section class="section">
       <div class="container">
         <nav
           class="breadcrumb"
@@ -96,6 +93,29 @@
         </div>
       </div>
     </section>
+
+    <body>
+      <section class="section">
+        <div class="container">
+          <div class="card">
+            <div class="card-content">
+              <h1 class="title">说明</h1>
+              <h2 class="subtitle">
+                由于 Github 上的资源下载对于部分朋友来说速度实在太慢，所以我们将资源同时放在了阿里的 OSS，方便大家的下载。不过需要注意的是，如果你的服务器是海外的话，最好还是去 <a
+                  href="https://github.com/halo-dev/halo/releases"
+                  target="_blank"
+                >Github</a> 下载资源，不仅可以下载更快，还可以为我们节省一点流量费用。另外，目前的费用都是我们自费，如果该站帮助到了你，可以适当捐赠以帮助该站运营下去。可扫描下方二维码（支付宝/微信/QQ）进行捐赠。
+              </h2>
+              <img
+                src="https://i.loli.net/2018/12/23/5c1f68ce9b884.png"
+                width="200"
+                style="border: 2px dashed #00d1b2;"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
     <footer
       class="footer"
       style="padding:2rem 1.5rem 2rem"
