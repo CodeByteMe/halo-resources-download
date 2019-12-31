@@ -1,9 +1,11 @@
 import { axios } from '@/utils/request'
 
-export function loadDownloadList(parameter) {
+export function list(prefix) {
   return axios({
     url: '/api',
     method: 'get',
-    params: parameter
+    params: {
+      prefix: prefix
+    }
   })
 }

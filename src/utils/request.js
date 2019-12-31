@@ -1,10 +1,12 @@
 import axios from 'axios'
-import { VueAxios } from './axios'
+import {
+  VueAxios
+} from './axios'
 
 // 创建 axios 实例
 const service = axios.create({
-  baseURL: 'https://oss.halo.run', // api base_url
-  timeout: 6000 // 请求超时时间
+  baseURL: process.env.VUE_APP_API_BASE_URL, // api base_url
+  timeout: 10000 // 请求超时时间
 })
 
 const err = error => {
@@ -28,4 +30,6 @@ const installer = {
   }
 }
 
-export { installer as VueAxios, service as axios }
+export {
+  installer as VueAxios, service as axios
+}
