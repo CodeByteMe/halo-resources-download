@@ -3,15 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title>halo-asserts-front</title>
+    <title>Halo | Resources download</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="canonical" href="https://dl.halo.run">
+    <meta name="theme-color" content="#00d1b2">
+    <style>
+      body {height: 100%;}#loader{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;border:solid 3px #e5e5e5;border-top-color:#333;border-radius:50%;width:30px;height:30px;animation:spin .6s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+    </style>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but halo-asserts-front doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app">
+      <div id="loader"></div>
+    </div>
     <!-- built files will be auto injected -->
   </body>
 </html>
